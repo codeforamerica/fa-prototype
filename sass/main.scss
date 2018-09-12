@@ -1,0 +1,113 @@
+body {
+  background-color: #F9F9F9;
+}
+
+.cognito {
+
+  .c-forms-heading {
+    background-color: transparent !important;
+  }
+
+  .c-progress-section {
+    margin-bottom: 1em;
+  }
+
+  .c-forms-form-body {
+    background-color: #F9F9F9;
+    padding: 0 10px;
+    @media screen and (min-width: 601px) {
+      padding: 0 20px;
+    }
+  }
+
+  .c-forms-pages {
+    overflow: visible !important;
+  }
+
+  .c-forms-template {
+    background-color: #FFF;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+    padding: 1em;
+    box-radius: 10px;
+    border-top: 8px solid #DFD7CC;
+  }
+
+  .c-title {
+    border-bottom: 2px solid #EAEAE9;
+    margin-bottom: 1.5em;
+
+    h3 {
+      margin-top: .5em !important;
+      margin-bottom: 1.5em !important;
+      font-size: 26px !important;
+    }
+  }
+
+  .c-helptext {
+    font-style: normal;
+    margin-bottom: 1em;
+  }
+  
+  .c-label {
+    margin-bottom: .5em !important;
+  }
+
+  .c-field {
+    margin-bottom: 3em !important;
+  }
+
+  .c-validation {
+    font-size: 16px !important;
+    background-color: transparent !important;
+    color: #D40000 !important;
+  }
+
+  input[type="text"] {
+    border-radius: 0px !important;
+    border-bottom: 2px solid #000 !important;
+  }
+
+  textarea {
+    border-radius: 0px !important;
+    border: 2px solid #000 !important;
+  }
+
+  .c-choice-option {
+    border: 2px solid #EAEAE9;
+    width: 100% !important;
+    float: none !important;
+    padding: .3em .7em !important;
+    margin-bottom: .3em !important;
+  }
+
+  .c-yesno-radio {
+    border: 2px solid #EAEAE9;
+    width: 100% !important;
+    float: none !important;
+    padding: .3em .7em !important;
+    margin-bottom: .3em !important;
+    text-indent: 0 !important;
+  }
+
+  .c-button-section {
+    border-top: 2px solid #EAEAE9; 
+    padding-top: 2em !important;
+    padding-bottom: 1em !important;
+    margin-top: 1em !important;
+  }
+
+  .c-button.c-page-previous-page {
+    border: 1px solid #000;
+    background-color: #FFF;
+    color: #000;
+    &:hover {
+      background-color: #F9F9F9;
+    }
+  }
+
+  .c-page-numbering {
+    display: none;
+  }
+}
+
+
