@@ -4,8 +4,14 @@ body {
 
 .cognito {
 
+  form + div {
+    max-width: 100% !important;
+    visibility: hidden;
+  }
+
   .c-forms-form {
     margin-bottom: 2em !important;
+    margin: 0 auto;
   }
 
   .c-forms-heading {
