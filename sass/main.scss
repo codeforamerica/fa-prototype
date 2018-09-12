@@ -5,8 +5,9 @@ body {
 .cognito {
 
   form + div {
-    max-width: 100% !important;
-    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -91px;
   }
 
   .c-forms-form {
