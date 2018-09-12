@@ -4,6 +4,10 @@ body {
 
 .cognito {
 
+  .c-forms-form {
+    margin-bottom: 2em !important;
+  }
+
   .c-forms-heading {
     background-color: transparent !important;
   }
@@ -30,6 +34,7 @@ body {
     padding: 1em;
     box-radius: 10px;
     border-top: 8px solid #DFD7CC;
+    margin-bottom: 1em;
   }
 
   .c-title {
@@ -40,16 +45,18 @@ body {
       margin-top: .5em !important;
       margin-bottom: 1.5em !important;
       font-size: 26px !important;
+      line-height: 1.4em !important;
     }
   }
 
   .c-helptext {
-    font-style: normal;
     margin-bottom: 1em;
+    font-size: 16px !important;
   }
   
   .c-label {
     margin-bottom: .5em !important;
+    line-height: 1.5em !important;
   }
 
   .c-field {
@@ -89,6 +96,16 @@ body {
     text-indent: 0 !important;
   }
 
+  .c-fileupload-file {
+    a {
+      font-size: 19px !important;
+    }
+
+    a + div {
+      font-size: 16px !important;
+    }
+  }
+
   .c-button-section {
     border-top: 2px solid #EAEAE9; 
     padding-top: 2em !important;
@@ -96,10 +113,16 @@ body {
     margin-top: 1em !important;
   }
 
+  .c-button {
+    border-radius: 2px !important;
+    box-shadow: 0 2px 2px rgba(#015e50, 1);
+  }
+
   .c-button.c-page-previous-page {
     border: 1px solid #000;
     background-color: #FFF;
     color: #000;
+    box-shadow: 0 2px 2px rgba(#111111, .25);
     &:hover {
       background-color: #F9F9F9;
     }
