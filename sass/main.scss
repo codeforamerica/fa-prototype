@@ -1,5 +1,54 @@
-body {
-  background-color: #F9F9F9;
+.template--home {
+  text-align: center;
+  .slab--hero {
+    @media screen and (min-width: 481px) {
+      padding-top: 20em;
+    }
+    padding-top: 12em;
+    padding-bottom: 3em;
+    position:relative;
+    background: linear-gradient(0, rgba(0,0,0,0.5) 15%, transparent 99%);
+    background-color: transparent;
+    color: #FFF;
+    &:before {
+      content: '';
+      display: block;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-image: url('../images/mel_daniella.jpg');
+      background-size: cover;
+      background-position: top center;
+    }
+  }
+
+  .illustration--cfa_alaska_logos {
+    background-image: url('../images/cfa_alaska_logos.png');
+    width: 243px;
+    height:86px;
+  }
+
+  .illustration--interview {
+    background-image: url('../images/interview.png');
+    width: 50px;
+    height: 80px;
+  }
+
+  .illustration--proof {
+    background-image: url('../images/proof.png');
+    width: 50px;
+    height: 80px;
+  }
+
+  .illustration--send {
+    background-image: url('../images/send.png');
+    width: 50px;
+    height: 80px;
+  }
+
 }
 
 .cognito {
